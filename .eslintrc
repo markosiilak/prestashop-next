@@ -1,0 +1,100 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@next/next/recommended",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "simple-import-sort"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "simple-import-sort/sort": "error",
+    "func-names": "off",
+    "import/prefer-default-export": "off",
+    "sort-imports": "off",
+    "no-console": "off",
+    "no-empty": "off",
+    "no-plusplus": "off",
+    "no-unused-vars": "off",
+    "no-restricted-globals": "off",
+    "react/no-danger": "off",
+    "camelcase": "off",
+    "no-return-assign": "off",
+    "react/no-array-index-key": "off",
+    "import/no-unresolved": "off",
+    "@next/next/no-img-element": "off",
+    "no-param-reassign": "off",
+    "no-use-before-define": "off",
+    "react/no-unstable-nested-components": "off",
+    "react/require-default-props": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-undef": "off",
+    "default-param-last": "off",
+    "import/extensions": "off",
+    "no-shadow": "off",
+    "consistent-return": "off",
+    "react/destructuring-assignment": "off",
+    "react/no-unused-prop-types": "off",
+    "no-return-await": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": "off",
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": true
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules",
+          "src"
+        ]
+      }
+    }
+  },
+  "globals": {
+    "React": "writable"
+  }
+}

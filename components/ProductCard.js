@@ -1,4 +1,4 @@
-import { addProduct } from '../lib/presta-api/presta-api-cart';
+import { addProduct } from '../lib/api/cart';
 
 export default function ProductCard({id, name, price}) {
     return(

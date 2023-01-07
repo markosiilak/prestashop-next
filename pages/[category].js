@@ -3,10 +3,10 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react';
 
 // Libs
-import { getCategories, getCategory, getCategoryByURL } from '../lib/presta-api/presta-api-category';
-import { getCategoryProducts } from '../lib/presta-api/presta-api-product';
-import { initSession } from '../lib/presta-api/presta-api';
-import { getLanguages } from '../lib/presta-api/presta-api-lang';
+import { getCategories, getCategory, getCategoryByURL } from '../lib/api/category';
+import { getCategoryProducts } from '../lib/api/product';
+import { initSession } from '../lib/api/api';
+import { getLanguages } from '../lib/api/languages';
 
 // Components
 import ProductCard from '../components/ProductCard';

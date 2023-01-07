@@ -1,7 +1,7 @@
 // Libs
-import { prestaEvents } from '../lib/presta-api/presta-api';
-import { getProduct } from '../lib/presta-api/presta-api-product';
-import { getLanguageByIsoCode } from '../lib/presta-api/presta-api-lang';
+import { prestaEvents } from '../lib/api/api';
+import { getProduct } from '../lib/api/product';
+import { getLanguageByIsoCode } from '../lib/api/languages';
 
 // Core
 import { useState, useEffect } from 'react';

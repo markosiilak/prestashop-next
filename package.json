@@ -1,19 +1,47 @@
 {
-  "name": "presta-react",
-  "version": "0.1.0",
+  "name": "prestashop",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Marko Siilak",
+    "email": "marko@siilak.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
     "cookie": "^0.4.1",
     "events": "^3.2.0",
     "html-react-parser": "^0.13.0",
     "js-cookie": "^2.2.1",
-    "next": "^10.0.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@next/eslint-plugin-next": "^12.1.5",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "postcss": "^8.3.11",
+    "prettier": "1.19.1",
+    "typescript": "^4.7.4"
   }
 }
