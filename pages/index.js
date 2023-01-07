@@ -2,9 +2,11 @@ import Head from "next/head";
 import { useEffect } from "react";
 
 import Cart from "../components/Cart";
-import { getProducts, initSession } from "../lib/api/api";
+import { API_KEY, API_URL, getProducts, initSession } from "../lib/api/api";
 import { addProduct, removeProductFromCart } from "../lib/api/cart";
 import styles from "../styles/Home.module.css";
+
+const PrestaShop = require("smart-prestashop-api");
 
 export default function Home({ products }) {
   useEffect(() => {
@@ -64,6 +66,19 @@ export default function Home({ products }) {
 }
 
 export async function getStaticProps({ req }) {
+  const options = {
+    url: API_URL,
+    token: API_KEY
+  };
+
+  const clients = new PrestaShop(options);
+
+  await clients.get({
+    resource: "customers",
+    display: "full",
+    limit: 15
+  });
+
   const products = await getProducts();
 
   return {
