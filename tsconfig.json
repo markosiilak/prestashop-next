@@ -56,7 +56,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "context/AuthContext.tsx", "context/AuthContext.tsx"  ],
+, "context/AuthContext.tsx", "context/AuthContext.tsx", "lib/api/api.js", "lib/api/api.js"  ],
   "exclude": [
     "node_modules",
     "**/*.js"

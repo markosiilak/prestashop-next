@@ -7,7 +7,8 @@ export default function ProductCard({ id, name, price }) {
     <Box>
       <Typography variant="h3">{name}</Typography>
       <Typography variant="paragraph">{price}</Typography>
-      <Button variant="contained"
+      <Button
+        variant="contained"
         onClick={() => {
           addProduct(id);
         }}
