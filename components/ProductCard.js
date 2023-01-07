@@ -1,11 +1,19 @@
-import { addProduct } from '../lib/api/cart';
+import { Box, Button, Typography } from "@mui/material";
 
-export default function ProductCard({id, name, price}) {
-    return(
-        <>
-            <h3>{name}</h3>
-            <span>{price}</span>
-            <button onClick={() => {addProduct(id) }}>Add to Cart</button>
-        </>
-    );
+import { addProduct } from "../lib/api/cart";
+
+export default function ProductCard({ id, name, price }) {
+  return (
+    <Box>
+      <Typography variant="h3">{name}</Typography>
+      <Typography variant="paragraph">{price}</Typography>
+      <Button variant="contained"
+        onClick={() => {
+          addProduct(id);
+        }}
+      >
+        Add to Cart
+      </Button>
+    </Box>
+  );
 }
