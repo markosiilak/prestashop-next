@@ -1,0 +1,19 @@
+{
+  "name": "presta-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "events": "^3.2.0",
+    "html-react-parser": "^0.13.0",
+    "js-cookie": "^2.2.1",
+    "next": "^10.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}

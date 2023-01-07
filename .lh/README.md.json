@@ -1,0 +1,30 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1673050183622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1673050196052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n ### Prestashop with React Next\n \n-Basic template made with Next.js and React to persist and consume data from Prestashop as a Headless-CMS.\n+Basic template made with Next.js and React to persist and consume data from Prestashop\n \n #### Goals (dev) ####\n * ~~State cookie with the cart info~~\n * State cookie with the user info\n"
+                },
+                {
+                    "date": 1673050201618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n \n Basic template made with Next.js and React to persist and consume data from Prestashop\n \n #### Goals (dev) ####\n-* ~~State cookie with the cart info~~\n * State cookie with the user info\n * Basic add-to-cart / remove-from-cart product actions\n * Basic event-driven data\n >* Cart update\n"
+                },
+                {
+                    "date": 1673050212354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ### Prestashop with React Next\n \n Basic template made with Next.js and React to persist and consume data from Prestashop\n \n-#### Goals (dev) ####\n+#### Goals (dev)\n * State cookie with the user info\n * Basic add-to-cart / remove-from-cart product actions\n * Basic event-driven data\n >* Cart update\n"
+                }
+            ],
+            "date": 1673050183622,
+            "name": "Commit-0",
+            "content": "### Prestashop with React Next\n\nBasic template made with Next.js and React to persist and consume data from Prestashop as a Headless-CMS.\n\n#### Goals (dev) ####\n* ~~State cookie with the cart info~~\n* State cookie with the user info\n* Basic add-to-cart / remove-from-cart product actions\n* Basic event-driven data\n>* Cart update\n>* User update\n\n#### Goals (1.0) ####\n\n* Basic Product view\n* Add Product to cart\n* Cart view\n* Checkout process\n>* Login a Customer\n>* Register a Customer\n>* Create Address\n>* Select Carrier\n>* Select payment method\n>* Order confirmation\n\n"
+        }
+    ]
+}
